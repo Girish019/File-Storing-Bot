@@ -29,7 +29,7 @@ async def channel_post(client: Client, message: Message):
     media = message.video or message.document
     # filname= media.file_name.split("S0")[0]#[1][2]etc
     filname = re.split("S\d", media.file_name)[0]#[1][2]etc
-    botfsno= re.findall("S\d+E\d+\d", media.file_name)                   
+    Eno= re.findall("S\d+E\d+\d", media.file_name)                   
     if len(DATEDAY)==0:
         await client.send_message(chat_id=message.chat.id, text="Error: invalid date please set /date")
     else:
@@ -83,7 +83,7 @@ async def channel_post(client: Client, message: Message):
     await asyncio.sleep(0.5)
     await bot_msg.edit("Wait Sending Photo ▣ ▣ ▣ ")
     await asyncio.sleep(0.5)
-    await client.send_photo(chat_id=chtid, photo=pic, caption=FOMET.format(botfsno[0], Size, DATEDAY[-1], Tlink))
+    await client.send_photo(chat_id=chtid, photo=pic, caption=FOMET.format(DATEDAY[-1], Size, Eno[0], Tlink))
     await asyncio.sleep(1)
     await bot_msg.edit(BOTEFITMSG.format(filname, botfsno[0], Tlink, Size, DATEDAY[-1]))
     # await bot_msg.edit(BOTEFITMSG.format(filname, botfsno[0], Tlink, Slink, Size, DATEDAY[-1])) #msg edit to "please wait...(see line 39" msg ==> and finally the elements belongs to sent serials are updated here
