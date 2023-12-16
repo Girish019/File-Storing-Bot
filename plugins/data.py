@@ -13,20 +13,27 @@ FOMET = """
  
     YOUR EPISODE LINK 🔗 
 <b>{}</b>
-<b>{}</b>
 
         👀👩‍💻 𝐇𝐨𝐰 𝐭𝐨 𝐨𝐩𝐞𝐧 👩‍💻👀
 https://t.me/+Sb5ro1gyhgY0NWM1
 https://t.me/+Sb5ro1gyhgY0NWM1
   """
-# A simple format return sent elements datails see (line 72, 39 in pluggins->channel post)
 BOTEFITMSG = """
 Post Sent Successfully ✅
 Elements in <b>"{}{}"</b>
 
-<b>TG Link : <a href="{}">Tlink</a></b> & <b>Short Link: <a href="{}">SLink</a></b>
+<b>TG Link : <a href="{}">Tlink</a></b> 
 <b>Vid Size : {}</b>   <b>Date : {}</b>
 """
+
+# A simple format return sent elements datails see (line 72, 39 in pluggins->channel post)
+# BOTEFITMSG = """
+# Post Sent Successfully ✅
+# Elements in <b>"{}{}"</b>
+
+# <b>TG Link : <a href="{}">Tlink</a></b> & <b>Short Link: <a href="{}">SLink</a></b>
+# <b>Vid Size : {}</b>   <b>Date : {}</b>
+# """
 #whole serials data return in dictionary
 ############{'serial name':["pic", "short link domin", "short link api", "To channel id"]}###############
 #ex =>>>    '':['','','','']
