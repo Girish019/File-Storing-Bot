@@ -37,7 +37,7 @@ DATAODD = {
         'Gundamma_Katha_':['','','',''],
         'Jabilli_Kosam_Aakashamalle_':['','','',''],
         'Subhasya_Seeghram_':['','','',''],
-        'Oohalu_Gusagusalade_':['','','',''],
+        'Oohalu_Gusagusalade_':['https://graph.org/file/a289d5007caaeebe4b18e.jpg','','',''],
   #noon
         'Radhamma_Kuthuru_':['https://graph.org/file/9934bd7b3c3492dd01e42.jpg','','',''],
         'Chiranjeevi_Lakshmi_Sowbhagyavati_':['https://graph.org/file/f75069b1b3a99f5652e70.jpg','','',''],
