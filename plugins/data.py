@@ -31,12 +31,12 @@ Elements in <b>"{}{}"</b>
 ############{'serial name':["pic", "short link domin", "short link api", "To channel id"]}###############
 #ex =>>>    '':['','','','']
 DATAODD = {
-        'Rajeshwari_Vilas_Coffee_Club_':['','','',''],
-        'Seethe_Ramudi_Katnam_':['','','',''],
-        'Mukkupudaka_':['','','',''],
-        'Gundamma_Katha_':['','','',''],
-        'Jabilli_Kosam_Aakashamalle_':['','','',''],
-        'Subhasya_Seeghram_':['','','',''],
+        'Rajeshwari_Vilas_Coffee_Club_':['https://graph.org/file/8fb299e1497c166065892.jpg','','',''],
+        'Seethe_Ramudi_Katnam_':['https://graph.org/file/517d41e6bda6f38ce7730.jpg','','',''],
+        'Mukkupudaka_':['https://graph.org/file/b894f656bbc1f1dd477b4.jpg','','',''],
+        'Gundamma_Katha_':['https://graph.org/file/3cbf790cb570d3c7dbe27.jpg','','',''],
+        'Jabilli_Kosam_Aakashamalle_':['https://graph.org/file/67b5969a42a3b47ab0754.jpg','','',''],
+        'Subhasya_Seeghram_':['https://graph.org/file/047e212145409524e7ec8.jpg','','',''],
         'Oohalu_Gusagusalade_':['https://graph.org/file/a289d5007caaeebe4b18e.jpg','','',''],
   #noon
         'Radhamma_Kuthuru_':['https://graph.org/file/9934bd7b3c3492dd01e42.jpg','','',''],
