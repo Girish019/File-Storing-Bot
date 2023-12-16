@@ -39,15 +39,15 @@ DATAODD = {
         'Subhasya_Seeghram_':['','','',''],
         'Oohalu_Gusagusalade_':['','','',''],
   #noon
-        'Radhamma_Kuthuru_':['','','',''],
-        'Chiranjeevi_Lakshmi_Sowbhagyavati_':['','','',''],
-        'Nindu_Noorella_Saavasam_':['','','',''],
-        'Jagadhatri_':['','','',''],
-        'Padamati_Sandhyaragam_':['','','',''],
-        'Trinayani_':['','','',''],
-        'Prema_Entha_Maduram_':['','','',''],
-        'Ammayi_Garu_':['','','',''],
-        'Suryakantham_':['','','','']
+        'Radhamma_Kuthuru_':['https://graph.org/file/9934bd7b3c3492dd01e42.jpg','','',''],
+        'Chiranjeevi_Lakshmi_Sowbhagyavati_':['https://graph.org/file/f75069b1b3a99f5652e70.jpg','','',''],
+        'Nindu_Noorella_Saavasam_':['https://graph.org/file/a4005c14fd51c5a32cc2c.jpg','','',''],
+        'Jagadhatri_':['https://graph.org/file/ef6227a07dac67bc30785.jpg','','',''],
+        'Padamati_Sandhyaragam_':['https://graph.org/file/c9444bffe703c0133a28f.jpg','','',''],
+        'Trinayani_':['https://graph.org/file/33af2c68d9e4e297d733e.jpg','','',''],
+        'Prema_Entha_Maduram_':['https://graph.org/file/6e25ea2e439c46bb6184a.jpg','','',''],
+        'Ammayi_Garu_':['https://graph.org/file/f42f50a0838286f90e944.jpg','','',''],
+        'Suryakantham_':['https://graph.org/file/f5f324be9836fdb1f95e9.jpg','','','']
   
 }
 DATAEVEN = {
