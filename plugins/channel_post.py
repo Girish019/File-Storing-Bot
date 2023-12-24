@@ -25,11 +25,15 @@ async def date(bot, message):
 
 @Bot.on_message(filters.private & filters.user(ADMINS) & ~filters.text)
 async def channel_post(client: Client, message: Message):
-    #dateexc = datetime.now().strftime("%d")
+    current_time = datetime.now()
     media = message.video or message.document
     # filname= media.file_name.split("S0")[0]#[1][2]etc
-    filname = re.split("S\d", media.file_name)[0]#[1][2]etc
-    Eno= re.findall("S\d+E\d+\d", media.file_name)                   
+    ############# FOR UTSAV BOT ##################
+    #filname = re.split("S\d", media.file_name)[0]#[1][2]etc
+    ############# FOR DS BOT ##################
+    filname = re.split(current_time.strftime("%B"), media.file_name)[0]#[1][2]etc
+    
+    #Eno= re.findall("S\d+E\d+\d", media.file_name)
     if len(DATEDAY)==0:
         await client.send_message(chat_id=message.chat.id, text="Error: invalid date please set /date")
     else:
