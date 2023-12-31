@@ -8,9 +8,11 @@ FOMET = """
 
 ⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
 LINK ➮ <b>{}</b>
+LINK ➮ <b>{}</b>
 
 𝐇𝐨𝐰 𝐭𝐨 𝐨𝐩𝐞𝐧 🤷‍♂️
-just tap the link
+https://t.me/+YR6Jf1m5RmdmOGY1
+https://t.me/+YR6Jf1m5RmdmOGY1
 ⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
   """
 BOTEFITMSG = """
