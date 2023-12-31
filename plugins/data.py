@@ -41,6 +41,7 @@ DATAODD = {
         'Jabilli_Kosam_Aakashamalle_':['https://graph.org/file/67b5969a42a3b47ab0754.jpg','','','-1002126345865'],
         'Subhasya_Seeghram_':['https://graph.org/file/047e212145409524e7ec8.jpg','','','-1002126345865'],
         'Oohalu_Gusagusalade_':['https://graph.org/file/a289d5007caaeebe4b18e.jpg','','','-1002126345865'],
+        'Radhaku_Neevera_Praanam_':['https://graph.org/file/0803b79007469aa17d04c.jpg','','','-1002126345865'],
   #zee evening 
         'Radhamma_Kuthuru_':['https://graph.org/file/9934bd7b3c3492dd01e42.jpg','','','-1002126345865'],
         'Chiranjeevi_Lakshmi_Sowbhagyavati_':['https://graph.org/file/f75069b1b3a99f5652e70.jpg','','','-1002126345865'],
