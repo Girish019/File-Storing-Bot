@@ -15,22 +15,16 @@ https://t.me/+YR6Jf1m5RmdmOGY1
 https://t.me/+YR6Jf1m5RmdmOGY1
 ⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
   """
+
+# A simple format return sent elements datails see (line 72, 39 in pluggins->channel post)
 BOTEFITMSG = """
 Post Sent Successfully ✅
-Elements in <b>"{}"</b>
+Elements in <b>"{}{}"</b>
 
-<b>TG Link : <a href="{}">Tlink</a></b> 
+<b>TG Link : <a href="{}">Tlink</a></b> & <b>Short Link: <a href="{}">SLink</a></b>
 <b>Vid Size : {}</b>   <b>Date : {}</b>
 """
 
-# A simple format return sent elements datails see (line 72, 39 in pluggins->channel post)
-# BOTEFITMSG = """
-# Post Sent Successfully ✅
-# Elements in <b>"{}{}"</b>
-
-# <b>TG Link : <a href="{}">Tlink</a></b> & <b>Short Link: <a href="{}">SLink</a></b>
-# <b>Vid Size : {}</b>   <b>Date : {}</b>
-# """
 #whole serials data return in dictionary
 ############{'serial name':["pic", "short link domin", "short link api", "To channel id"]}###############
 #ex =>>>    '':['','','','']
