@@ -42,8 +42,8 @@ async def channel_post(client: Client, message: Message):
         if filname in DATAODD.keys(): #matching name in dict key with arrival video file name
             chtid=int(DATAODD[filname][3])#for particular channel id
             pic=DATAODD[filname][0] #particuler images
-            # SL_URL=DATAODD[filname][1] #for particuler domine name
-            # SL_API=DATAODD[filname][2] #for particuler api 
+            SL_URL=DATAODD[filname][1] #for particuler domine name
+            SL_API=DATAODD[filname][2] #for particuler api 
            # chtid=message.chat.id # if you want pic+formet into bot pm     
             bot_msg = await message.reply_text("Please Wait...!", quote = True) #reply text please wait... to bot
             await asyncio.sleep(1)
@@ -58,8 +58,8 @@ async def channel_post(client: Client, message: Message):
         if filname in DATAEVEN.keys():
             chtid=int(DATAEVEN[filname][3])
             pic=DATAEVEN[filname][0]
-            # SL_URL=DATAEVEN[filname][1]
-            # SL_API=DATAEVEN[filname][2]
+            SL_URL=DATAEVEN[filname][1]
+            SL_API=DATAEVEN[filname][2]
             # chtid=message.chat.id # if you want pic+formet into bot pm
             bot_msg = await message.reply_text("Please Wait...!", quote = True) #reply text please wait... to bot
             await asyncio.sleep(1)
@@ -75,7 +75,7 @@ async def channel_post(client: Client, message: Message):
     
     Tlink = await conv_link(client , message)
     await asyncio.sleep(1)
-    # Slink = await get_short(SL_URL, SL_API, Tlink) #generating short link with particular domine and api
+    Slink = await get_short(SL_URL, SL_API, Tlink) #generating short link with particular domine and api
     await bot_msg.edit("Analysing....!")
     await asyncio.sleep(1)
     Size = await get_size(media.file_size)
@@ -87,11 +87,10 @@ async def channel_post(client: Client, message: Message):
     await asyncio.sleep(0.5)
     await bot_msg.edit("Wait Sending Photo ▣ ▣ ▣ ")
     await asyncio.sleep(0.5)
-    await client.send_photo(chat_id=chtid, photo=pic, caption=FOMET.format(DATEDAY[-1], Size, Tlink))
+    await client.send_photo(chat_id=chtid, photo=pic, caption=FOMET.format(DATEDAY[-1], Size, Slink, Slink)) ##msg edit to "please wait...(see line 39" msg ==> and finally the elements belongs to sent serials are updated here
     await asyncio.sleep(1)
-    await bot_msg.edit(BOTEFITMSG.format(filname, Tlink, Size, DATEDAY[-1]))
-    # await bot_msg.edit(BOTEFITMSG.format(filname, botfsno[0], Tlink, Slink, Size, DATEDAY[-1])) #msg edit to "please wait...(see line 39" msg ==> and finally the elements belongs to sent serials are updated here
-    #await e_pic.edit) # msg edit in forwarder channel = "pic without captions (see line 41)" ==> thats return to our given format and short link ,date are updated here
+    await bot_msg.edit(BOTEFITMSG.format(filname, Tlink, Slink, Size, DATEDAY[-1])) ## msg edit in forwarder channel = "pic without captions (see line 41)" ==> thats return to our given format and short link ,date are updated here
+    # await bot_msg.edit(BOTEFITMSG.format(filname, botfsno[0], Tlink, Slink, Size, DATEDAY[-1])) 
 
 async def conv_link(client , message):
     try:
