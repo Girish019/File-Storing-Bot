@@ -28,74 +28,63 @@ async def channel_post(client: Client, message: Message):
     current_time = datetime.now()
     media = message.video or message.document
     # filname= media.file_name.split("S0")[0]#[1][2]etc
-    ############# FOR UTSAV BOT ##################
+############# FOR UTSAV BOT ##################
     #filname = re.split("S\d", media.file_name)[0]#[1][2]etc
-    ############# FOR DS BOT ##################
-    filname = re.split(current_time.strftime("%B"), media.file_name)[0]#[1][2]etc
-
-    prefile = re.split("Episode\s", message.caption)[1]
-    subfile = re.split("\s-\s",prefile)
-    Eno = subfile[0]
-    filname = f'{subfile[1].replace(" ", "_")}_'
-    
     #Eno= re.findall("S\d+E\d+\d", media.file_name)
-    if len(DATEDAY)==0:
-        await client.send_message(chat_id=message.chat.id, text="Error: invalid date please set /date")
-    else:
-        pass                
-    if int(DATEDAY[-1][0:2]) % 2 != 0:#chaeking for ODD by given date
-        if filname in DATAODD.keys(): #matching name in dict key with arrival video file name
-            chtid=int(DATAODD[filname][3])#for particular channel id
-            pic=DATAODD[filname][0] #particuler images
-            SL_URL=DATAODD[filname][1] #for particuler domine name
-            SL_API=DATAODD[filname][2] #for particuler api 
-           # chtid=message.chat.id # if you want pic+formet into bot pm     
-            bot_msg = await message.reply_text("Please Wait...!", quote = True) #reply text please wait... to bot
-            await asyncio.sleep(1)
-        elif media.file_name in media.file_name:
-            bot_msg = await message.reply_text("Please Wait...!", quote = True)
-            link = await conv_link(client , message)
-            await bot_msg.edit(f"<b>Here is your link</b>\n\n{link}\n\n<code>{link}</code>")
+################# FOR DS BOT ##################
+    #filname = re.split(current_time.strftime("%B"), media.file_name)[0]#[1][2]etc   
+################ FOR DS BOT 2nd CASE #############
+   
+    bot_msg = await message.reply_text("Please Wait...!", quote = True) #reply text please wait... to bot
+    try:
+        if "ZEE5.WEB-DL" in message.caption:
+            prefile = re.split("Episode\s", message.caption)[1]
+            subfile = re.split("\s-\s",prefile)
+            Eno = subfile[0]
+            filname = f'{subfile[1].replace(" ", "_")}_'
+        elif "JIOCINEMA.WEB-DL" in message.caption:
+            filname = re.split(current_time.strftime("%B"), media.file_name)[0]#[1][2]etc
         else:
-            reply_text = await message.reply_text("❌Somthing went wrong")
-
-    elif int(DATEDAY[-1][0:2]) % 2 == 0: #checking for EVEN
-        if filname in DATAEVEN.keys():
-            chtid=int(DATAEVEN[filname][3])
-            pic=DATAEVEN[filname][0]
-            SL_URL=DATAEVEN[filname][1]
-            SL_API=DATAEVEN[filname][2]
-            # chtid=message.chat.id # if you want pic+formet into bot pm
-            bot_msg = await message.reply_text("Please Wait...!", quote = True) #reply text please wait... to bot
+            await bot_msg.edit("FILENAME NOT MATCHED")
+        if len(DATEDAY)==0:
+            await client.send_message(chat_id=message.chat.id, text="Error: invalid date please set /date")
+        else:                
+            if int(DATEDAY[-1][0:2]) % 2 != 0:#chaeking for ODD by given date
+                if filname in DATAODD.keys(): #matching name in dict key with arrival video file name
+                    chtid=int(DATAODD[filname][3])#for particular channel id
+                    pic=DATAODD[filname][0] #particuler images
+                    SL_URL=DATAODD[filname][1] #for particuler domine name
+                    SL_API=DATAODD[filname][2] #for particuler api 
+                   # chtid=message.chat.id # if you want pic+formet into bot pm     
+        
+            elif int(DATEDAY[-1][0:2]) % 2 == 0: #checking for EVEN
+                if filname in DATAEVEN.keys():
+                    chtid=int(DATAEVEN[filname][3])
+                    pic=DATAEVEN[filname][0]
+                    SL_URL=DATAEVEN[filname][1]
+                    SL_API=DATAEVEN[filname][2]
+                    # chtid=message.chat.id # if you want pic+formet into bot pm
+             
+            Tlink = await conv_link(client , message)
             await asyncio.sleep(1)
-        elif media.file_name in media.file_name:
-            bot_msg = await message.reply_text("Please Wait...!", quote = True)
-            link = await conv_link(client , message)
-            await bot_msg.edit(f"<b>Here is your link</b>\n\n{link}\n\n<code>{link}</code>")
-        else:
-            reply_text = await message.reply_text("❌Somthing went wrong")
-    else:
-         reply_text = await message.reply_text(USER_REPLY_TEXT)
-
-    
-    Tlink = await conv_link(client , message)
-    await asyncio.sleep(1)
-    Slink = await get_short(SL_URL, SL_API, Tlink) #generating short link with particular domine and api
-    await bot_msg.edit("Analysing....!")
-    await asyncio.sleep(1)
-    Size = await get_size(media.file_size)
-    await bot_msg.edit("Getting size....!")
-    await asyncio.sleep(1)
-    await bot_msg.edit("Wait Sending Post ▣ ▢ ▢ ")
-    await asyncio.sleep(0.5)
-    await bot_msg.edit("Wait Sending Photo ▣ ▣ ▢ ")
-    await asyncio.sleep(0.5)
-    await bot_msg.edit("Wait Sending Photo ▣ ▣ ▣ ")
-    await asyncio.sleep(0.5)
-    await client.send_photo(chat_id=chtid, photo=pic, caption=FOMET.format(DATEDAY[-1], Size, Slink, Slink)) ##msg edit to "please wait...(see line 39" msg ==> and finally the elements belongs to sent serials are updated here
-    await asyncio.sleep(1)
-    await bot_msg.edit(BOTEFITMSG.format(filname, Tlink, Slink, Size, DATEDAY[-1])) ## msg edit in forwarder channel = "pic without captions (see line 41)" ==> thats return to our given format and short link ,date are updated here
-    # await bot_msg.edit(BOTEFITMSG.format(filname, botfsno[0], Tlink, Slink, Size, DATEDAY[-1])) 
+            Slink = await get_short(SL_URL, SL_API, Tlink) #generating short link with particular domine and api
+            await bot_msg.edit("Analysing....!")
+            await asyncio.sleep(1)
+            Size = await get_size(media.file_size)
+            await bot_msg.edit("Getting size....!")
+            await asyncio.sleep(1)
+            await bot_msg.edit("Wait Sending Post ▣ ▢ ▢ ")
+            await asyncio.sleep(0.5)
+            await bot_msg.edit("Wait Sending Photo ▣ ▣ ▢ ")
+            await asyncio.sleep(0.5)
+            await bot_msg.edit("Wait Sending Photo ▣ ▣ ▣ ")
+            await asyncio.sleep(0.5)
+            await client.send_photo(chat_id=chtid, photo=pic, caption=FOMET.format(DATEDAY[-1], Size, Slink, Slink)) ##msg edit to "please wait...(see line 39" msg ==> and finally the elements belongs to sent serials are updated here
+            await asyncio.sleep(1)
+            await bot_msg.edit(BOTEFITMSG.format(filname, Tlink, Slink, Size, DATEDAY[-1])) ## msg edit in forwarder channel = "pic without captions (see line 41)" ==> thats return to our given format and short link ,date are updated here  
+    except:
+        link = await conv_link(client , message)
+        await bot_msg.edit(f"<b>Here is your link</b>\n\n{link}\n\n<code>{link}</code>")
 
 async def conv_link(client , message):
     try:
