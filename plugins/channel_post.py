@@ -23,18 +23,26 @@ async def date(bot, message):
         			InlineKeyboardButton("Today",callback_data = 'tdy'), 
         			InlineKeyboardButton("Tommorow",callback_data='tmr') ]]))
 
-@Bot.on_message(filters.private & filters.user(ADMINS) & ~filters.text)
+@Client.on_message(filters.private & filters.user(ADMINS) & ~filters.text)
 async def channel_post(client: Client, message: Message):
     current_time = datetime.now()
     media = message.video or message.document
-    filname= media.file_name.split("Season")[0]#[1][2]etc
-    prefile = re.split("Season_",media.file_name)[1]
-    subfile= re.split("_Episode_", prefile)
-    season = subfile[0] 
-    episode = re.split("_", subfile[1])[0]
-    Eno =f"S0{season}E{episode}"
+############# FOR Ds BOT ##################
+    #filname= media.file_name.split("Season")[0]#[1][2]etc
+    #filname= media.file_name.split("Season")[0]#[1][2]etc
+    #prefile = re.split("Season_",media.file_name)[1]
+    #subfile= re.split("_Episode_", prefile)
+    #season = subfile[0] 
+    #episode = re.split("_", subfile[1])[0]
+    #Eno =f"S0{season}E{episode}"
+    
 ############# FOR UTSAV BOT ##################
-    #filname = re.split("S\d", media.file_name)[0]#[1][2]etc
+    janvary = current_time.strftime("%B")
+    medias = media.file_name.replace(".","_")
+    if janvary in medias:
+        filname = re.split(janvary, medias)[0]
+    else:
+        filname = re.split("S\d", medias)[0]#[1][2]etc
     #Eno= re.findall("S\d+E\d+\d", media.file_name)
 ################# FOR DS BOT ##################
     #filname = re.split(current_time.strftime("%B"), media.file_name)[0]#[1][2]etc   
@@ -59,27 +67,39 @@ async def channel_post(client: Client, message: Message):
                     SL_URL=DATAEVEN[filname][1]
                     SL_API=DATAEVEN[filname][2]
                     # chtid=message.chat.id # if you want pic+formet into bot pm
-             
-            Tlink = await conv_link(client , message)
-            await asyncio.sleep(1)
-            Slink = asyncio.run(get_short(SL_URL, SL_API, Tlink)) #generating short link with particular domine and api
-            await bot_msg.edit("Analysing....!")
-            await asyncio.sleep(1)
             Size = await get_size(media.file_size)
             await bot_msg.edit("Getting size....!")
             await asyncio.sleep(1)
-            await bot_msg.edit("Wait Sending Post ▣ ▢ ▢ ")
-            await asyncio.sleep(0.5)
-            await bot_msg.edit("Wait Sending Photo ▣ ▣ ▢ ")
-            await asyncio.sleep(0.5)
-            await bot_msg.edit("Wait Sending Photo ▣ ▣ ▣ ")
-            await asyncio.sleep(0.5)
-            await client.send_photo(chat_id=chtid, photo=pic, caption=FOMET.format(DATEDAY[-1], Eno, Size, Slink, Slink))
+            Tlink = await conv_link(client , message)
+            await bot_msg.edit("Tlink generating....!")
             await asyncio.sleep(1)
+            Slink = await get_short(SL_URL, SL_API, Tlink)
+            await bot_msg.edit("Slink generating....!")
+            await asyncio.sleep(1)
+            await bot_msg.edit("Sending post......!")
+            await asyncio.sleep(1)
+            await client.send_photo(chat_id=chtid, photo=pic, caption=FOMET.format(Size, DATEDAY[-1], Slink, Slink))
             await bot_msg.edit(BOTEFITMSG.format(filname, Tlink, Slink, Size, DATEDAY[-1])) # msg edit in forwarder channel = "pic without captions (see line 41)" ==> thats return to our given format and short link ,date are updated here
-    except:
+    except Exception as e:
         link = await conv_link(client , message)
-        await bot_msg.edit(f"<b>Here is your link</b>\n\n{link}\n\n<code>{link}</code>")
+        await bot_msg.edit(f"<b>Here is your link</b>\n\n{link}\n\n<code>{link}</code>\n\n<b>Exception couse :</b> {e}")
+        Slink = "ERORR_ACCURED"
+        await message.reply_photo(photo=pic, caption=FOMET.format(Size, DATEDAY[-1], Slink, Slink), quote = True)
+
+async def get_short(SL_URL, SL_API, Tlink): #generating short link with particular domine and api
+    try:
+       api_url = f"https://{SL_URL}/api"
+       params = {'api': SL_API, 'url': Tlink}
+       async with aiohttp.ClientSession() as session:
+           async with session.get(api_url, params=params) as resp:
+               data = await resp.json()
+               url = data["shortenedUrl"]
+       return url
+    except:
+        resp = requests.get(api_url, params=params)
+        data = resp.json()
+        url = data["shortenedUrl"]  
+        return url
 
 async def conv_link(client , message):
     try:
@@ -96,18 +116,6 @@ async def conv_link(client , message):
     link = f"https://telegram.me/{client.username}?start={base64_string}"
     # await client.send_massage(message.chat.id , f"<b>Here is your link</b>\n\n{link}\n\n<code>{link}</code>", disable_web_page_preview = True)
     return link
-
-async def get_short(SL_URL, SL_API, Tlink):
-        api_url = f"https://{SL_URL}/api"
-        params = {'api': SL_API, 'url': Tlink}
-        try:
-           async with aiohttp.ClientSession() as session:
-               async with session.get(api_url, params=params) as resp:
-                   data = await resp.json()
-                   url = data["shortenedUrl"]
-           return url
-        except Exception as error:
-           return error
 
 async def get_size(size):
     """Get size in readable format"""
