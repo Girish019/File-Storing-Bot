@@ -37,14 +37,7 @@ async def channel_post(client: Client, message: Message):
     #Eno =f"S0{season}E{episode}"
     
 ############# FOR UTSAV BOT ##################
-    janvary = current_time.strftime("%B")
-    medias = media.file_name.replace(".","_")
-    if 'S0' in medias:
-        filname = re.split("S\d", medias)[0]#[1][2]etc
-    elif janvary in medias:
-        filname = re.split(janvary, medias)[0]
-    else:
-        filname = re.split("S\d", medias)[0]#[1][2]etc
+    #filname = re.split("S\d", medias)[0]#[1][2]etc
     #Eno= re.findall("S\d+E\d+\d", media.file_name)
 ################# FOR DS BOT ##################
     #filname = re.split(current_time.strftime("%B"), media.file_name)[0]#[1][2]etc   
@@ -53,7 +46,8 @@ async def channel_post(client: Client, message: Message):
     try:
         if len(DATEDAY)==0:
             await client.send_message(chat_id=message.chat.id, text="Error: invalid date please set /date")
-        else:                
+        else:
+            filname = re.split("S\d", media.file_name)[0]#[1][2]etc
             if int(DATEDAY[-1][0:2]) % 2 != 0:#chaeking for ODD by given date
                 if filname in DATAODD.keys(): #matching name in dict key with arrival video file name
                     chtid=int(DATAODD[filname][3])#for particular channel id
