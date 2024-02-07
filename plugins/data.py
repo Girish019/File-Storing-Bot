@@ -29,7 +29,7 @@ Elements in <b>"{}"</b>
 
 #whole serials data return in dictionary
 ############{'serial name':["pic", "short link domin", "short link api", "To channel id"]}###############
-#ex =>>>    '':['','','','']
+#ex =>>>    '':['','','','-1002008804246'],
 DATAODD = {
  #zee noon 
         'Rajeshwari_Vilas_Coffee_Club_':['https://graph.org/file/8fb299e1497c166065892.jpg','upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1002126345865'],
@@ -49,7 +49,33 @@ DATAODD = {
         'Trinayani_':['https://graph.org/file/33af2c68d9e4e297d733e.jpg','tnshort.net','0045de7eda3a082a38f05bdd0d1c4de1262709fb','-1002126345865'],
         'Prema_Entha_Maduram_':['https://graph.org/file/6e25ea2e439c46bb6184a.jpg','tnshort.net','cfafc72b0df2558f0f5ad4e1c906ce9f783281e3','-1002126345865'],
         'Ammayi_Garu_':['https://graph.org/file/f42f50a0838286f90e944.jpg','tnvalue.in','ff426552eda72230153ea3450a0bce0557183ccb','-1002126345865'],
-        'Suryakantham_':['https://graph.org/file/f5f324be9836fdb1f95e9.jpg','tnvalue.in','e496ab76b42f51628da20bb69577397533008f3c','-1002126345865']
+        'Suryakantham_':['https://graph.org/file/f5f324be9836fdb1f95e9.jpg','tnvalue.in','e496ab76b42f51628da20bb69577397533008f3c','-1002126345865'],
+                          ######################### STAR MAA #############################
+  
+        'Brahma_Mudi_':['https://graph.org/file/42e219b2d7fa481015c94.jpg','','','-1002008804246'],
+        'Naga_Panchami_':['https://graph.org/file/6baf665cf72fc37e95a0a.jpg','','','-1002008804246'],
+        'Nuvvu_Nenu_Prema_':['https://graph.org/file/b8b48b491ca3891432f20.jpg','','','-1002008804246'],
+        
+        'Krishna_Mukunda_Murari_':['https://graph.org/file/699ccf05b07dfdf0354ec.jpg','','','-1002008804246'],
+        'Oorvasivo_Rakshasivo_':['https://graph.org/file/18f0809637aad9b1df8fc.jpg','','','-1002008804246'],
+        'Eto_Vellipoindi_Manasu_':['https://graph.org/file/3f9683a5879219cd6fdc6.jpg','','','-1002008804246'],
+        
+        
+        'Mamagaru_':['https://graph.org/file/f72ac8246bcfc01b4628f.jpg','','','-1002008804246'],
+        'Guppedantha_Manasu_':['https://graph.org/file/2fa434ea26b8aae62d4ff.jpg','','','-1002008804246'],
+        'Paluke_Bangaramayenaa_':['https://graph.org/file/3065e2e45f859dc2a2aab.jpg','','','-1002008804246'],
+        
+        'Gunde_Ninda_Gudi_Gantalu_':['https://graph.org/file/07af6081a1c0f91355cc7.jpg','','','-1002008804246'],
+        'Vantalakka_':['https://graph.org/file/6585f7489b819b9aaea8e.jpg','','','-1002008804246'],
+        'Satyabhama_':['https://graph.org/file/067a850e7e59c4299f94e.jpg','','','-1002008804246'],
+        
+        'Madhuranagarilo_':['https://graph.org/file/d0f192ffffd60de4f5faa.jpg','','','-1002008804246'],
+        'Malli_Nindu_Jabili_':['https://graph.org/file/dd22d068594c264c3c871.jpg','','','-1002008804246'],
+        'Kumkuma_Puvvu_':['https://graph.org/file/c5336926a44ed12ca964e.jpg','','','-1002008804246'],
+        'Yeda_Loyallo_Indradhanasu_':['https://graph.org/file/94b754a9e2451ca3f4f05.jpg','','','-1002008804246'],
+        'Paape_Maa_Jeevanajyothi_':['https://graph.org/file/3d6fd4ad1e7e939630401.jpg','','','-1002008804246'],
+        'Renuka_Yellamma_':['https://graph.org/file/1f2410e5d11acf18b038c.jpg','','','-1002008804246']
+  
   
 }
 DATAEVEN = {
@@ -71,5 +97,31 @@ DATAEVEN = {
         'Trinayani_':['https://graph.org/file/33af2c68d9e4e297d733e.jpg','linkshortify.com','4bc6f1e34d0409e5b8bd2197d42462bb1ec6048a','-1002126345865'],
         'Prema_Entha_Maduram_':['https://graph.org/file/6e25ea2e439c46bb6184a.jpg','linkshortify.com','8a9a3df5db074b2b1ad10efcd383e5243118447b','-1002126345865'],
         'Ammayi_Garu_':['https://graph.org/file/f42f50a0838286f90e944.jpg','moneycase.link','0c2406a0cf1b54db75fcba4cbb8e389bdc675eee','-1002126345865'],
-        'Suryakantham_':['https://graph.org/file/f5f324be9836fdb1f95e9.jpg','moneycase.link','f35b0c3ac535a200b3287c698b652e58b4689b6f','-1002126345865']
+        'Suryakantham_':['https://graph.org/file/f5f324be9836fdb1f95e9.jpg','moneycase.link','f35b0c3ac535a200b3287c698b652e58b4689b6f','-1002126345865'],
+                              ######################### STAR MAA #############################
+  
+        'Brahma_Mudi_':['https://graph.org/file/42e219b2d7fa481015c94.jpg','','','-1002008804246'],#
+        'Naga_Panchami_':['https://graph.org/file/6baf665cf72fc37e95a0a.jpg','','','-1002008804246'],
+        'Nuvvu_Nenu_Prema_':['https://graph.org/file/b8b48b491ca3891432f20.jpg','','','-1002008804246'],
+        
+        'Krishna_Mukunda_Murari_':['https://graph.org/file/699ccf05b07dfdf0354ec.jpg','','','-1002008804246'],
+        'Oorvasivo_Rakshasivo_':['https://graph.org/file/18f0809637aad9b1df8fc.jpg','','','-1002008804246'],
+        'Eto_Vellipoindi_Manasu_':['https://graph.org/file/3f9683a5879219cd6fdc6.jpg','','','-1002008804246'],
+        
+        
+        'Mamagaru_':['https://graph.org/file/f72ac8246bcfc01b4628f.jpg','','','-1002008804246'],
+        'Guppedantha_Manasu_':['https://graph.org/file/2fa434ea26b8aae62d4ff.jpg','','','-1002008804246'],
+        'Paluke_Bangaramayenaa_':['https://graph.org/file/3065e2e45f859dc2a2aab.jpg','','','-1002008804246'],
+        
+        'Gunde_Ninda_Gudi_Gantalu_':['https://graph.org/file/07af6081a1c0f91355cc7.jpg','','','-1002008804246'],
+        'Vantalakka_':['https://graph.org/file/6585f7489b819b9aaea8e.jpg','','','-1002008804246'],
+        'Satyabhama_':['https://graph.org/file/067a850e7e59c4299f94e.jpg','','','-1002008804246'],
+        
+        'Madhuranagarilo_':['https://graph.org/file/d0f192ffffd60de4f5faa.jpg','','','-1002008804246'],
+        'Malli_Nindu_Jabili_':['https://graph.org/file/dd22d068594c264c3c871.jpg','','','-1002008804246'],
+        'Kumkuma_Puvvu_':['https://graph.org/file/c5336926a44ed12ca964e.jpg','','','-1002008804246'],
+        'Yeda_Loyallo_Indradhanasu_':['https://graph.org/file/94b754a9e2451ca3f4f05.jpg','','','-1002008804246'],
+        'Paape_Maa_Jeevanajyothi_':['https://graph.org/file/3d6fd4ad1e7e939630401.jpg','','','-1002008804246'],
+        'Renuka_Yellamma_':['https://graph.org/file/1f2410e5d11acf18b038c.jpg','','','-1002008804246']
+
 }
