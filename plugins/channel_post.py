@@ -75,13 +75,13 @@ async def channel_post(client: Client, message: Message):
             await asyncio.sleep(1)
             await bot_msg.edit("Sending post......!")
             await asyncio.sleep(1)
-            await client.send_photo(chat_id=chtid, photo=pic, caption=FOMET.format(DATEDAY[-1], Eno, Size, Slink, Slink))
+            await client.send_photo(chat_id=chtid, photo=pic, caption=FOMET.format(DATEDAY[-1], Eno[0], Size, Slink, Slink))
             await bot_msg.edit(BOTEFITMSG.format(filname, Tlink, Slink, Size, DATEDAY[-1])) # msg edit in forwarder channel = "pic without captions (see line 41)" ==> thats return to our given format and short link ,date are updated here
     except Exception as e:
         link = await conv_link(client , message)
         await bot_msg.edit(f"<b>Here is your link</b>\n\n{link}\n\n<code>{link}</code>\n\n<b>Exception couse :</b> {e}")
         Slink = "ERORR_ACCURED"
-        await message.reply_photo(photo=pic, caption=FOMET.format(DATEDAY[-1], Eno, Size, Slink, Slink), quote = True)
+        await message.reply_photo(photo=pic, caption=FOMET.format(DATEDAY[-1], Eno[0], Size, Slink, Slink), quote = True)
 
 async def get_short(SL_URL, SL_API, Tlink): #generating short link with particular domine and api
     try:
