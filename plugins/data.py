@@ -63,11 +63,11 @@ DATAODD = {
         
         'Mamagaru_':['https://graph.org/file/f72ac8246bcfc01b4628f.jpg','tnvalue.in','8fc4e5a5a7f1d571adfc7c02537d7c1e73da1a15','-1002008804246'],
         'Guppedantha_Manasu_':['https://graph.org/file/2fa434ea26b8aae62d4ff.jpg','tnvalue.in','ff426552eda72230153ea3450a0bce0557183ccb','-1002008804246'],
-        'Paluke_Bangaramayenaa_':['https://graph.org/file/3065e2e45f859dc2a2aab.jpg','','','-1002008804246'],
+        'Paluke_Bangaramayenaa_':['https://graph.org/file/3065e2e45f859dc2a2aab.jpg','gyanilinks.com','a22f51811990f630f92999a71dd9ae8f8505f0fd','-1002008804246'],
         
-        'Gunde_Ninda_Gudi_Gantalu_':['https://graph.org/file/07af6081a1c0f91355cc7.jpg','','','-1002008804246'],
-        'Vantalakka_':['https://graph.org/file/6585f7489b819b9aaea8e.jpg','','','-1002008804246'],
-        'Satyabhama_':['https://graph.org/file/067a850e7e59c4299f94e.jpg','','','-1002008804246'],
+        'Gunde_Ninda_Gudi_Gantalu_':['https://graph.org/file/07af6081a1c0f91355cc7.jpg','gyanilinks.com','48dcae9aa066bd2577204960ddefcadf00e02a77','-1002008804246'],
+        'Vantalakka_':['https://graph.org/file/6585f7489b819b9aaea8e.jpg','moneycase.link','bdc62bf7dd54515abf15371b58feb6a1ff2b434a','-1002008804246'],
+        'Satyabhama_':['https://graph.org/file/067a850e7e59c4299f94e.jpg','moneycase.link','f35b0c3ac535a200b3287c698b652e58b4689b6f','-1002008804246'],
         
         'Madhuranagarilo_':['https://graph.org/file/d0f192ffffd60de4f5faa.jpg','','','-1002008804246'],
         'Malli_Nindu_Jabili_':['https://graph.org/file/dd22d068594c264c3c871.jpg','','','-1002008804246'],
@@ -109,13 +109,13 @@ DATAEVEN = {
         'Eto_Vellipoindi_Manasu_':['https://graph.org/file/3f9683a5879219cd6fdc6.jpg','tnshort.net','1183b34c88b1fd4e898d7d9dc7b6fc6a2bea9dd9','-1002008804246'],
         
         
-        'Mamagaru_':['https://graph.org/file/f72ac8246bcfc01b4628f.jpg','','','-1002008804246'],
-        'Guppedantha_Manasu_':['https://graph.org/file/2fa434ea26b8aae62d4ff.jpg','','','-1002008804246'],
-        'Paluke_Bangaramayenaa_':['https://graph.org/file/3065e2e45f859dc2a2aab.jpg','','','-1002008804246'],
+        'Mamagaru_':['https://graph.org/file/f72ac8246bcfc01b4628f.jpg','moneycase.link','bdc62bf7dd54515abf15371b58feb6a1ff2b434a','-1002008804246'],
+        'Guppedantha_Manasu_':['https://graph.org/file/2fa434ea26b8aae62d4ff.jpg','gyanilinks.com','48dcae9aa066bd2577204960ddefcadf00e02a77','-1002008804246'],
+        'Paluke_Bangaramayenaa_':['https://graph.org/file/3065e2e45f859dc2a2aab.jpg','moneycase.link','f35b0c3ac535a200b3287c698b652e58b4689b6f','-1002008804246'],
         
         'Gunde_Ninda_Gudi_Gantalu_':['https://graph.org/file/07af6081a1c0f91355cc7.jpg','tnvalue.in','ff426552eda72230153ea3450a0bce0557183ccb','-1002008804246'],
         'Vantalakka_':['https://graph.org/file/6585f7489b819b9aaea8e.jpg','tnvalue.in','8fc4e5a5a7f1d571adfc7c02537d7c1e73da1a15','-1002008804246'],
-        'Satyabhama_':['https://graph.org/file/067a850e7e59c4299f94e.jpg','','','-1002008804246'],
+        'Satyabhama_':['https://graph.org/file/067a850e7e59c4299f94e.jpg','gyanilinks.com','a22f51811990f630f92999a71dd9ae8f8505f0fd','-1002008804246'],
         
         'Madhuranagarilo_':['https://graph.org/file/d0f192ffffd60de4f5faa.jpg','','','-1002008804246'],
         'Malli_Nindu_Jabili_':['https://graph.org/file/dd22d068594c264c3c871.jpg','','','-1002008804246'],
