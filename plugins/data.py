@@ -31,7 +31,7 @@ Elements in <b>"{}"</b>
 ############{'serial name':["pic", "short link domin", "short link api", "To channel id"]}###############
 #ex =>>>    '':['','','','-1002008804246'],
 DATAODD = {
- #zee noon 
+                        ###################### ZEE TRLUGU NOON ###########################
         'Rajeshwari_Vilas_Coffee_Club_':['https://graph.org/file/8fb299e1497c166065892.jpg','upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1002126345865'],
         'Seethe_Ramudi_Katnam_':['https://graph.org/file/517d41e6bda6f38ce7730.jpg','moneycase.link','bdc62bf7dd54515abf15371b58feb6a1ff2b434a','-1002126345865'],
         'Mukkupudaka_':['https://graph.org/file/b894f656bbc1f1dd477b4.jpg','moneycase.link','f35b0c3ac535a200b3287c698b652e58b4689b6f','-1002126345865'],
@@ -40,7 +40,7 @@ DATAODD = {
         'Subhasya_Seeghram_':['https://graph.org/file/047e212145409524e7ec8.jpg','upshrink.com','7864f20bc9c1eb4c29769f820c1069ddd21dfe94','-1002126345865'],
         'Oohalu_Gusagusalade_':['https://graph.org/file/a289d5007caaeebe4b18e.jpg','upshrink.com','4a6aae0ff4e202d6c04695352f6409511f2a0642','-1002126345865'],
         'Radhaku_Neevera_Praanam_':['https://graph.org/file/0803b79007469aa17d04c.jpg','upshrink.com','7864f20bc9c1eb4c29769f820c1069ddd21dfe94','-1002126345865'],
-  #zee evening 
+                        ###################### ZEE TRLUGU EVENING ###########################
         'Radhamma_Kuthuru_':['https://graph.org/file/9934bd7b3c3492dd01e42.jpg','tnvalue.in','8fc4e5a5a7f1d571adfc7c02537d7c1e73da1a15','-1002126345865'],
         'Chiranjeevi_Lakshmi_Sowbhagyavati_':['https://graph.org/file/f75069b1b3a99f5652e70.jpg','tnshort.net','1183b34c88b1fd4e898d7d9dc7b6fc6a2bea9dd9','-1002126345865'],
         'Nindu_Noorella_Saavasam_':['https://graph.org/file/a4005c14fd51c5a32cc2c.jpg','linkshortify.com','9e82f5e0d917c633234194f39c2985752efd67e0','-1002126345865'],
@@ -79,7 +79,7 @@ DATAODD = {
   
 }
 DATAEVEN = {
- #zee noon
+                        ###################### ZEE TRLUGU NOON ###########################
         'Rajeshwari_Vilas_Coffee_Club_':['https://graph.org/file/8fb299e1497c166065892.jpg','upshrink.com','7864f20bc9c1eb4c29769f820c1069ddd21dfe94','-1002126345865'],
         'Seethe_Ramudi_Katnam_':['https://graph.org/file/517d41e6bda6f38ce7730.jpg','tnvalue.in','8fc4e5a5a7f1d571adfc7c02537d7c1e73da1a15','-1002126345865'],
         'Mukkupudaka_':['https://graph.org/file/b894f656bbc1f1dd477b4.jpg','tnvalue.in','e496ab76b42f51628da20bb69577397533008f3c','-1002126345865'],
@@ -88,7 +88,7 @@ DATAEVEN = {
         'Subhasya_Seeghram_':['https://graph.org/file/047e212145409524e7ec8.jpg','upshrink.com','4a6aae0ff4e202d6c04695352f6409511f2a0642','-1002126345865'],
         'Oohalu_Gusagusalade_':['https://graph.org/file/a289d5007caaeebe4b18e.jpg','upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1002126345865'],
         'Radhaku_Neevera_Praanam_':['https://graph.org/file/0803b79007469aa17d04c.jpg','upshrink.com','4a6aae0ff4e202d6c04695352f6409511f2a0642','-1002126345865'],
-  #zee evening 
+                         ###################### ZEE TRLUGU EVENING ###########################
         'Radhamma_Kuthuru_':['https://graph.org/file/9934bd7b3c3492dd01e42.jpg','moneycase.link','bdc62bf7dd54515abf15371b58feb6a1ff2b434a','-1002126345865'],
         'Chiranjeevi_Lakshmi_Sowbhagyavati_':['https://graph.org/file/f75069b1b3a99f5652e70.jpg','linkshortify.com','9e82f5e0d917c633234194f39c2985752efd67e0','-1002126345865'],
         'Nindu_Noorella_Saavasam_':['https://graph.org/file/a4005c14fd51c5a32cc2c.jpg','tnshort.net','1183b34c88b1fd4e898d7d9dc7b6fc6a2bea9dd9','-1002126345865'],
