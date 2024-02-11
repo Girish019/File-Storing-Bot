@@ -69,12 +69,12 @@ DATAODD = {
         'Vantalakka_':['https://graph.org/file/6585f7489b819b9aaea8e.jpg','moneycase.link','bdc62bf7dd54515abf15371b58feb6a1ff2b434a','-1002008804246'],
         'Satyabhama_':['https://graph.org/file/067a850e7e59c4299f94e.jpg','moneycase.link','f35b0c3ac535a200b3287c698b652e58b4689b6f','-1002008804246'],
         
-        'Madhuranagarilo_':['https://graph.org/file/d0f192ffffd60de4f5faa.jpg','','','-1002008804246'],
-        'Malli_Nindu_Jabili_':['https://graph.org/file/dd22d068594c264c3c871.jpg','','','-1002008804246'],
-        'Kumkuma_Puvvu_':['https://graph.org/file/c5336926a44ed12ca964e.jpg','','','-1002008804246'],
-        'Yeda_Loyallo_Indradhanasu_':['https://graph.org/file/94b754a9e2451ca3f4f05.jpg','','','-1002008804246'],
-        'Paape_Maa_Jeevanajyothi_':['https://graph.org/file/3d6fd4ad1e7e939630401.jpg','','','-1002008804246'],
-        'Renuka_Yellamma_':['https://graph.org/file/1f2410e5d11acf18b038c.jpg','','','-1002008804246']
+        'Madhuranagarilo_':['https://graph.org/file/d0f192ffffd60de4f5faa.jpg','Upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1002008804246'],
+        'Malli_Nindu_Jabili_':['https://graph.org/file/dd22d068594c264c3c871.jpg','Upshrink.com','7864f20bc9c1eb4c29769f820c1069ddd21dfe94','-1002008804246'],
+        'Kumkuma_Puvvu_':['https://graph.org/file/c5336926a44ed12ca964e.jpg','Upshrink.com','4a6aae0ff4e202d6c04695352f6409511f2a0642','-1002008804246'],
+        'Yeda_Loyallo_Indradhanasu_':['https://graph.org/file/94b754a9e2451ca3f4f05.jpg','Upshrink.com','4a6aae0ff4e202d6c04695352f6409511f2a0642','-1002008804246'],
+        'Paape_Maa_Jeevanajyothi_':['https://graph.org/file/3d6fd4ad1e7e939630401.jpg','Upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1002008804246'],
+        'Renuka_Yellamma_':['https://graph.org/file/1f2410e5d11acf18b038c.jpg','Upshrink.com','7864f20bc9c1eb4c29769f820c1069ddd21dfe94','-1002008804246']
   
   
 }
@@ -117,11 +117,11 @@ DATAEVEN = {
         'Vantalakka_':['https://graph.org/file/6585f7489b819b9aaea8e.jpg','tnvalue.in','8fc4e5a5a7f1d571adfc7c02537d7c1e73da1a15','-1002008804246'],
         'Satyabhama_':['https://graph.org/file/067a850e7e59c4299f94e.jpg','gyanilinks.com','a22f51811990f630f92999a71dd9ae8f8505f0fd','-1002008804246'],
         
-        'Madhuranagarilo_':['https://graph.org/file/d0f192ffffd60de4f5faa.jpg','','','-1002008804246'],
-        'Malli_Nindu_Jabili_':['https://graph.org/file/dd22d068594c264c3c871.jpg','','','-1002008804246'],
-        'Kumkuma_Puvvu_':['https://graph.org/file/c5336926a44ed12ca964e.jpg','','','-1002008804246'],
-        'Yeda_Loyallo_Indradhanasu_':['https://graph.org/file/94b754a9e2451ca3f4f05.jpg','','','-1002008804246'],
-        'Paape_Maa_Jeevanajyothi_':['https://graph.org/file/3d6fd4ad1e7e939630401.jpg','','','-1002008804246'],
-        'Renuka_Yellamma_':['https://graph.org/file/1f2410e5d11acf18b038c.jpg','','','-1002008804246']
+        'Madhuranagarilo_':['https://graph.org/file/d0f192ffffd60de4f5faa.jpg','Upshrink.com','4a6aae0ff4e202d6c04695352f6409511f2a0642','-1002008804246'],
+        'Malli_Nindu_Jabili_':['https://graph.org/file/dd22d068594c264c3c871.jpg','Upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1002008804246'],
+        'Kumkuma_Puvvu_':['https://graph.org/file/c5336926a44ed12ca964e.jpg','Upshrink.com','7864f20bc9c1eb4c29769f820c1069ddd21dfe94','-1002008804246'],
+        'Yeda_Loyallo_Indradhanasu_':['https://graph.org/file/94b754a9e2451ca3f4f05.jpg','Upshrink.com','7864f20bc9c1eb4c29769f820c1069ddd21dfe94','-1002008804246'],
+        'Paape_Maa_Jeevanajyothi_':['https://graph.org/file/3d6fd4ad1e7e939630401.jpg','Upshrink.com','4a6aae0ff4e202d6c04695352f6409511f2a0642','-1002008804246'],
+        'Renuka_Yellamma_':['https://graph.org/file/1f2410e5d11acf18b038c.jpg','Upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1002008804246']
 
 }
