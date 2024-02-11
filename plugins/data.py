@@ -52,17 +52,17 @@ DATAODD = {
         'Suryakantham_':['https://graph.org/file/f5f324be9836fdb1f95e9.jpg','tnvalue.in','e496ab76b42f51628da20bb69577397533008f3c','-1002126345865'],
                           ######################### STAR MAA #############################
   
-        'Brahma_Mudi_':['https://graph.org/file/42e219b2d7fa481015c94.jpg','','','-1002008804246'],
-        'Naga_Panchami_':['https://graph.org/file/6baf665cf72fc37e95a0a.jpg','','','-1002008804246'],
-        'Nuvvu_Nenu_Prema_':['https://graph.org/file/b8b48b491ca3891432f20.jpg','','','-1002008804246'],
+        'Brahma_Mudi_':['https://graph.org/file/42e219b2d7fa481015c94.jpg','tnshort.net','0045de7eda3a082a38f05bdd0d1c4de1262709fb','-1002008804246'],
+        'Naga_Panchami_':['https://graph.org/file/6baf665cf72fc37e95a0a.jpg','linkshortify.com','4bc6f1e34d0409e5b8bd2197d42462bb1ec6048a','-1002008804246'],
+        'Nuvvu_Nenu_Prema_':['https://graph.org/file/b8b48b491ca3891432f20.jpg','linkshortify.com','9e82f5e0d917c633234194f39c2985752efd67e0','-1002008804246'],
         
-        'Krishna_Mukunda_Murari_':['https://graph.org/file/699ccf05b07dfdf0354ec.jpg','','','-1002008804246'],
-        'Oorvasivo_Rakshasivo_':['https://graph.org/file/18f0809637aad9b1df8fc.jpg','','','-1002008804246'],
-        'Eto_Vellipoindi_Manasu_':['https://graph.org/file/3f9683a5879219cd6fdc6.jpg','','','-1002008804246'],
+        'Krishna_Mukunda_Murari_':['https://graph.org/file/699ccf05b07dfdf0354ec.jpg','tnshort.net','cfafc72b0df2558f0f5ad4e1c906ce9f783281e3','-1002008804246'],
+        'Oorvasivo_Rakshasivo_':['https://graph.org/file/18f0809637aad9b1df8fc.jpg','tnshort.net','1183b34c88b1fd4e898d7d9dc7b6fc6a2bea9dd9','-1002008804246'],
+        'Eto_Vellipoindi_Manasu_':['https://graph.org/file/3f9683a5879219cd6fdc6.jpg','linkshortify.com','8a9a3df5db074b2b1ad10efcd383e5243118447b','-1002008804246'],
         
         
-        'Mamagaru_':['https://graph.org/file/f72ac8246bcfc01b4628f.jpg','','','-1002008804246'],
-        'Guppedantha_Manasu_':['https://graph.org/file/2fa434ea26b8aae62d4ff.jpg','','','-1002008804246'],
+        'Mamagaru_':['https://graph.org/file/f72ac8246bcfc01b4628f.jpg','tnvalue.in','8fc4e5a5a7f1d571adfc7c02537d7c1e73da1a15','-1002008804246'],
+        'Guppedantha_Manasu_':['https://graph.org/file/2fa434ea26b8aae62d4ff.jpg','tnvalue.in','ff426552eda72230153ea3450a0bce0557183ccb','-1002008804246'],
         'Paluke_Bangaramayenaa_':['https://graph.org/file/3065e2e45f859dc2a2aab.jpg','','','-1002008804246'],
         
         'Gunde_Ninda_Gudi_Gantalu_':['https://graph.org/file/07af6081a1c0f91355cc7.jpg','','','-1002008804246'],
@@ -100,21 +100,21 @@ DATAEVEN = {
         'Suryakantham_':['https://graph.org/file/f5f324be9836fdb1f95e9.jpg','moneycase.link','f35b0c3ac535a200b3287c698b652e58b4689b6f','-1002126345865'],
                               ######################### STAR MAA #############################
   
-        'Brahma_Mudi_':['https://graph.org/file/42e219b2d7fa481015c94.jpg','','','-1002008804246'],#
-        'Naga_Panchami_':['https://graph.org/file/6baf665cf72fc37e95a0a.jpg','','','-1002008804246'],
-        'Nuvvu_Nenu_Prema_':['https://graph.org/file/b8b48b491ca3891432f20.jpg','','','-1002008804246'],
+        'Brahma_Mudi_':['https://graph.org/file/42e219b2d7fa481015c94.jpg','linkshortify.com','4bc6f1e34d0409e5b8bd2197d42462bb1ec6048a','-1002008804246'],#
+        'Naga_Panchami_':['https://graph.org/file/6baf665cf72fc37e95a0a.jpg','tnshort.net','0045de7eda3a082a38f05bdd0d1c4de1262709fb','-1002008804246'],
+        'Nuvvu_Nenu_Prema_':['https://graph.org/file/b8b48b491ca3891432f20.jpg','tnshort.net','cfafc72b0df2558f0f5ad4e1c906ce9f783281e3','-1002008804246'],
         
-        'Krishna_Mukunda_Murari_':['https://graph.org/file/699ccf05b07dfdf0354ec.jpg','','','-1002008804246'],
-        'Oorvasivo_Rakshasivo_':['https://graph.org/file/18f0809637aad9b1df8fc.jpg','','','-1002008804246'],
-        'Eto_Vellipoindi_Manasu_':['https://graph.org/file/3f9683a5879219cd6fdc6.jpg','','','-1002008804246'],
+        'Krishna_Mukunda_Murari_':['https://graph.org/file/699ccf05b07dfdf0354ec.jpg','linkshortify.com','9e82f5e0d917c633234194f39c2985752efd67e0','-1002008804246'],
+        'Oorvasivo_Rakshasivo_':['https://graph.org/file/18f0809637aad9b1df8fc.jpg','linkshortify.com','8a9a3df5db074b2b1ad10efcd383e5243118447b','-1002008804246'],
+        'Eto_Vellipoindi_Manasu_':['https://graph.org/file/3f9683a5879219cd6fdc6.jpg','tnshort.net','1183b34c88b1fd4e898d7d9dc7b6fc6a2bea9dd9','-1002008804246'],
         
         
         'Mamagaru_':['https://graph.org/file/f72ac8246bcfc01b4628f.jpg','','','-1002008804246'],
         'Guppedantha_Manasu_':['https://graph.org/file/2fa434ea26b8aae62d4ff.jpg','','','-1002008804246'],
         'Paluke_Bangaramayenaa_':['https://graph.org/file/3065e2e45f859dc2a2aab.jpg','','','-1002008804246'],
         
-        'Gunde_Ninda_Gudi_Gantalu_':['https://graph.org/file/07af6081a1c0f91355cc7.jpg','','','-1002008804246'],
-        'Vantalakka_':['https://graph.org/file/6585f7489b819b9aaea8e.jpg','','','-1002008804246'],
+        'Gunde_Ninda_Gudi_Gantalu_':['https://graph.org/file/07af6081a1c0f91355cc7.jpg','tnvalue.in','ff426552eda72230153ea3450a0bce0557183ccb','-1002008804246'],
+        'Vantalakka_':['https://graph.org/file/6585f7489b819b9aaea8e.jpg','tnvalue.in','8fc4e5a5a7f1d571adfc7c02537d7c1e73da1a15','-1002008804246'],
         'Satyabhama_':['https://graph.org/file/067a850e7e59c4299f94e.jpg','','','-1002008804246'],
         
         'Madhuranagarilo_':['https://graph.org/file/d0f192ffffd60de4f5faa.jpg','','','-1002008804246'],
