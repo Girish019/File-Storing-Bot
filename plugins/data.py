@@ -83,7 +83,7 @@ DATAODD = {
         'Kumkuma_Puvvu_':['https://graph.org/file/c5336926a44ed12ca964e.jpg','Upshrink.com','4a6aae0ff4e202d6c04695352f6409511f2a0642','-1002008804246'],
         'Yeda_Loyallo_Indradhanasu_':['https://graph.org/file/94b754a9e2451ca3f4f05.jpg','Upshrink.com','4a6aae0ff4e202d6c04695352f6409511f2a0642','-1002008804246'],
         'Paape_Maa_Jeevanajyothi_':['https://graph.org/file/3d6fd4ad1e7e939630401.jpg','Upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1002008804246'],
-        'Renuka_Yellamma_':['https://graph.org/file/1f2410e5d11acf18b038c.jpg','Upshrink.com','7864f20bc9c1eb4c29769f820c1069ddd21dfe94','-1002008804246']
+        'Renuka_Yellamma_':['https://graph.org/file/1f2410e5d11acf18b038c.jpg','Upshrink.com','7864f20bc9c1eb4c29769f820c1069ddd21dfe94','-1002008804246'],
          ########## WEEKEND SHOES ############
          'Super_Singer_':['https://graph.org/file/d950a58978ca0c295be09.jpg','gyanilinks.com','a22f51811990f630f92999a71dd9ae8f8505f0fd','-1002008804246'],
          'Adivaram_With_Star_Maa_Parivaram_Star_Wars_':['https://graph.org/file/18b5a1a5b8ea31f11f2f3.jpg', 'gyanilinks.com','48dcae9aa066bd2577204960ddefcadf00e02a77','-1002008804246'],
@@ -140,7 +140,7 @@ DATAEVEN = {
         'Kumkuma_Puvvu_':['https://graph.org/file/c5336926a44ed12ca964e.jpg','Upshrink.com','7864f20bc9c1eb4c29769f820c1069ddd21dfe94','-1002008804246'],
         'Yeda_Loyallo_Indradhanasu_':['https://graph.org/file/94b754a9e2451ca3f4f05.jpg','Upshrink.com','7864f20bc9c1eb4c29769f820c1069ddd21dfe94','-1002008804246'],
         'Paape_Maa_Jeevanajyothi_':['https://graph.org/file/3d6fd4ad1e7e939630401.jpg','Upshrink.com','4a6aae0ff4e202d6c04695352f6409511f2a0642','-1002008804246'],
-        'Renuka_Yellamma_':['https://graph.org/file/1f2410e5d11acf18b038c.jpg','Upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1002008804246']
+        'Renuka_Yellamma_':['https://graph.org/file/1f2410e5d11acf18b038c.jpg','Upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1002008804246'],
         ########## WEEKEND SHOES ############
         'Super_Singer_':['https://graph.org/file/d950a58978ca0c295be09.jpg','gyanilinks.com','48dcae9aa066bd2577204960ddefcadf00e02a77','-1002008804246'],
         'Adivaram_With_Star_Maa_Parivaram_Star_Wars_':['https://graph.org/file/18b5a1a5b8ea31f11f2f3.jpg', 'gyanilinks.com','a22f51811990f630f92999a71dd9ae8f8505f0fd','-1002008804246'],
