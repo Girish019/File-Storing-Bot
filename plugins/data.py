@@ -56,6 +56,7 @@ DATAODD = {
         'Oohalu_Gusagusalade_':['https://graph.org/file/a289d5007caaeebe4b18e.jpg','upshrink.com','4a6aae0ff4e202d6c04695352f6409511f2a0642','-1002126345865'],
         'Radhaku_Neevera_Praanam_':['https://graph.org/file/0803b79007469aa17d04c.jpg','upshrink.com','7864f20bc9c1eb4c29769f820c1069ddd21dfe94','-1002126345865'],
         ########## WEEKEND SHOES ############
+        'Super_Jodi_':['https://graph.org/file/c548d59fe8c7733c544de.jpg','gyanilinks.com','a22f51811990f630f92999a71dd9ae8f8505f0fd','-1002126345865'],
         # OLD SHOES WASTE
   
                           ######################### STAR MAA #############################
@@ -83,7 +84,10 @@ DATAODD = {
         'Yeda_Loyallo_Indradhanasu_':['https://graph.org/file/94b754a9e2451ca3f4f05.jpg','Upshrink.com','4a6aae0ff4e202d6c04695352f6409511f2a0642','-1002008804246'],
         'Paape_Maa_Jeevanajyothi_':['https://graph.org/file/3d6fd4ad1e7e939630401.jpg','Upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1002008804246'],
         'Renuka_Yellamma_':['https://graph.org/file/1f2410e5d11acf18b038c.jpg','Upshrink.com','7864f20bc9c1eb4c29769f820c1069ddd21dfe94','-1002008804246']
-  
+         ########## WEEKEND SHOES ############
+         'Super_Singer_ ':['https://graph.org/file/d950a58978ca0c295be09.jpg','gyanilinks.com','a22f51811990f630f92999a71dd9ae8f8505f0fd','-1002008804246'],
+         'Adivaram_With_Star_Maa_Parivaram_Star_Wars_':['https://graph.org/file/18b5a1a5b8ea31f11f2f3.jpg', 'gyanilinks.com','48dcae9aa066bd2577204960ddefcadf00e02a77','-1002008804246'],
+         # OLD SHOES WASTE 
   
 }
 DATAEVEN = {
@@ -109,7 +113,10 @@ DATAEVEN = {
         'Subhasya_Seeghram_':['https://graph.org/file/047e212145409524e7ec8.jpg','upshrink.com','4a6aae0ff4e202d6c04695352f6409511f2a0642','-1002126345865'],
         'Oohalu_Gusagusalade_':['https://graph.org/file/a289d5007caaeebe4b18e.jpg','upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1002126345865'],
         'Radhaku_Neevera_Praanam_':['https://graph.org/file/0803b79007469aa17d04c.jpg','upshrink.com','4a6aae0ff4e202d6c04695352f6409511f2a0642','-1002126345865'],
-
+        ########## WEEKEND SHOES ############
+        'Super_Jodi_':['https://graph.org/file/c548d59fe8c7733c544de.jpg','gyanilinks.com','48dcae9aa066bd2577204960ddefcadf00e02a77','-1002126345865'],
+        # OLD SHOES WASTE
+  
                               ######################### STAR MAA #############################
          ######### PUBLICEARN ##########
         'Naga_Panchami_':['https://graph.org/file/6baf665cf72fc37e95a0a.jpg','publicearn.com','7a31310702b8f319804ab699cfde6303ee7d35fa','-1002008804246'],
@@ -134,5 +141,9 @@ DATAEVEN = {
         'Yeda_Loyallo_Indradhanasu_':['https://graph.org/file/94b754a9e2451ca3f4f05.jpg','Upshrink.com','7864f20bc9c1eb4c29769f820c1069ddd21dfe94','-1002008804246'],
         'Paape_Maa_Jeevanajyothi_':['https://graph.org/file/3d6fd4ad1e7e939630401.jpg','Upshrink.com','4a6aae0ff4e202d6c04695352f6409511f2a0642','-1002008804246'],
         'Renuka_Yellamma_':['https://graph.org/file/1f2410e5d11acf18b038c.jpg','Upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1002008804246']
+        ########## WEEKEND SHOES ############
+        'Super_Singer_ ':['https://graph.org/file/d950a58978ca0c295be09.jpg','gyanilinks.com','48dcae9aa066bd2577204960ddefcadf00e02a77','-1002008804246'],
+        'Adivaram_With_Star_Maa_Parivaram_Star_Wars_':['https://graph.org/file/18b5a1a5b8ea31f11f2f3.jpg', 'gyanilinks.com','a22f51811990f630f92999a71dd9ae8f8505f0fd','-1002008804246'],
+        # OLD SHOES WASTE
 
 }
