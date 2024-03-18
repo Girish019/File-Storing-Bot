@@ -47,7 +47,7 @@ DATAODD = {
         'Suryakantham_':['https://graph.org/file/f5f324be9836fdb1f95e9.jpg','gyanilinks.com','48dcae9aa066bd2577204960ddefcadf00e02a77','-1002126345865'],
         ######### TNSHORT ##########
         'Seethe_Ramudi_Katnam_':['https://graph.org/file/517d41e6bda6f38ce7730.jpg','tnshort.net','1183b34c88b1fd4e898d7d9dc7b6fc6a2bea9dd9','-1002126345865'],
-        'Mukkupudaka_':['https://graph.org/file/b894f656bbc1f1dd477b4.jpg','tnshort.net','cfafc72b0df2558f0f5ad4e1c906ce9f783281e3','-1002126345865'],
+        'Mukkupudaka_':['https://graph.org/file/b894f656bbc1f1dd477b4.jpg','kingurl.in','bacc7afdaa035d3cbe2d2c89bec4304b69a25145','-1002126345865'],
         'Gundamma_Katha_':['https://graph.org/file/3cbf790cb570d3c7dbe27.jpg','gyanilinks.com','a22f51811990f630f92999a71dd9ae8f8505f0fd','-1002126345865'],
         ######### UPSHRINK ##########
         'Rajeshwari_Vilas_Coffee_Club_':['https://graph.org/file/8fb299e1497c166065892.jpg','upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1002126345865'],
@@ -76,7 +76,7 @@ DATAODD = {
         ######### TNSHORT ##########
         'Krishna_Mukunda_Murari_':['https://graph.org/file/699ccf05b07dfdf0354ec.jpg','gyanilinks.com','a22f51811990f630f92999a71dd9ae8f8505f0fd','-1002008804246'],
         'Vantalakka_':['https://graph.org/file/6585f7489b819b9aaea8e.jpg','tnshort.net','bdc62bf7dd54515abf15371b58feb6a1ff2b434a','-1002008804246'],
-        'Gunde_Ninda_Gudi_Gantalu_':['https://graph.org/file/07af6081a1c0f91355cc7.jpg','tnshort.net','cfafc72b0df2558f0f5ad4e1c906ce9f783281e3','-1002008804246'],
+        'Gunde_Ninda_Gudi_Gantalu_':['https://graph.org/file/07af6081a1c0f91355cc7.jpg','kingurl.in','bacc7afdaa035d3cbe2d2c89bec4304b69a25145','-1002008804246'],
         ######### UPSHRINK ##########
         'Madhuranagarilo_':['https://graph.org/file/d0f192ffffd60de4f5faa.jpg','Upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1002008804246'],
         'Malli_Nindu_Jabili_':['https://graph.org/file/dd22d068594c264c3c871.jpg','Upshrink.com','7864f20bc9c1eb4c29769f820c1069ddd21dfe94','-1002008804246'],
@@ -107,7 +107,7 @@ DATAEVEN = {
         ######### TNSHORT ##########        
         'Radhamma_Kuthuru_':['https://graph.org/file/9934bd7b3c3492dd01e42.jpg','tnshort.net','1183b34c88b1fd4e898d7d9dc7b6fc6a2bea9dd9','-1002126345865'],
         'Ammayi_Garu_':['https://graph.org/file/f42f50a0838286f90e944.jpg','gyanilinks.com','a22f51811990f630f92999a71dd9ae8f8505f0fd','-1002126345865'],
-        'Suryakantham_':['https://graph.org/file/f5f324be9836fdb1f95e9.jpg','tnshort.net','cfafc72b0df2558f0f5ad4e1c906ce9f783281e3','-1002126345865'],
+        'Suryakantham_':['https://graph.org/file/f5f324be9836fdb1f95e9.jpg','kingurl.in','bacc7afdaa035d3cbe2d2c89bec4304b69a25145','-1002126345865'],
         ######### UPSHRINK ##########
         'Rajeshwari_Vilas_Coffee_Club_':['https://graph.org/file/8fb299e1497c166065892.jpg','upshrink.com','7864f20bc9c1eb4c29769f820c1069ddd21dfe94','-1002126345865'],
         'Jabilli_Kosam_Aakashamalle_':['https://graph.org/file/67b5969a42a3b47ab0754.jpg','upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1002126345865'],
@@ -134,7 +134,7 @@ DATAEVEN = {
         ######### TNSHORT ##########
         'Mamagaru_':['https://graph.org/file/f72ac8246bcfc01b4628f.jpg','tnshort.net','1183b34c88b1fd4e898d7d9dc7b6fc6a2bea9dd9','-1002008804246'],
         'Guppedantha_Manasu_':['https://graph.org/file/2fa434ea26b8aae62d4ff.jpg','gyanilinks.com','a22f51811990f630f92999a71dd9ae8f8505f0fd','-1002008804246'],
-        'Paluke_Bangaramayenaa_':['https://graph.org/file/3065e2e45f859dc2a2aab.jpg','tnshort.net','cfafc72b0df2558f0f5ad4e1c906ce9f783281e3','-1002008804246'],
+        'Paluke_Bangaramayenaa_':['https://graph.org/file/3065e2e45f859dc2a2aab.jpg','kingurl.in','bacc7afdaa035d3cbe2d2c89bec4304b69a25145','-1002008804246'],
         ######### UPSHRINK ##########
         'Madhuranagarilo_':['https://graph.org/file/d0f192ffffd60de4f5faa.jpg','Upshrink.com','4a6aae0ff4e202d6c04695352f6409511f2a0642','-1002008804246'],
         'Malli_Nindu_Jabili_':['https://graph.org/file/dd22d068594c264c3c871.jpg','Upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1002008804246'],
